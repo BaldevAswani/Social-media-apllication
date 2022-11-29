@@ -1,0 +1,24 @@
+body {
+  background-color: gainsboro; }
+  body #Log-in-container {
+    margin-left: 30%;
+    margin-top: 5%;
+    height: 55vh;
+    width: 30vw;
+    background-color: white;
+    text-align: center; }
+    body #Log-in-container .sign-in-details {
+      margin-bottom: 2vh;
+      font-size: 1.8rem; }
+    body #Log-in-container #log-in-button {
+      background-color: orange;
+      font-size: 1.8rem;
+      padding: 3 150 3 150;
+      cursor: pointer;
+      color: #faf1f1; }
+    body #Log-in-container #google-sign-in {
+      background-color: #6666ac;
+      font-size: 1.2rem;
+      padding: 7 110 7 110;
+      cursor: pointer;
+      color: #faf1f1; }

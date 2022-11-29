@@ -1,8 +1,23 @@
-<h1>Sign In</h1>
+
+<link rel="stylesheet" href="<%=assetPath("css/user_sign-in.css")%>">
+
+<script src="https://kit.fontawesome.com/c0b8896796.js" crossorigin="anonymous"></script>
+<div id ="Log-in-container">
+<h1>Log In</h1>
 
 <form action="/users/create-session" method="POST">
-    <input type="email" name="email" placeholder="Email"  required>
-    <input type="password" name="password" placeholder="Password"  required>
-    <input type="submit" value="Sign In">
+    <input type="email" name="email" placeholder="Email" class="sign-in-details" required><br>
+    <input type="password" name="password" placeholder="Password" class="sign-in-details" required><br>
+    <p><a href="#">Forgot Password?</a></p>
+    <input type="submit" value="Log In" id="log-in-button">
 
 </form>
+<p>
+    <a href="/users/auth/google">
+    
+     <button type="submit" id ="google-sign-in">Sign-in with google
+    </button>
+    </a>
+ 
+ </p>
+ </div>
